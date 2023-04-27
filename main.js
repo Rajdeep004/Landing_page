@@ -2,10 +2,10 @@
 const targetDate = new Date('2023-05-04T23:59:59');
 
 // Set up the custom property variables
-const daysElem = document.querySelector('.countdown:nth-child(1) span');
-const hoursElem = document.querySelector('.countdown:nth-child(2) span');
-const minutesElem = document.querySelector('.countdown:nth-child(3) span');
-const secondsElem = document.querySelector('.countdown:nth-child(4) span');
+const daysElem = document.querySelector('#daysElem');
+const hoursElem = document.querySelector('#hrsElem');
+const minutesElem = document.querySelector('#minElem');
+const secondsElem = document.querySelector('#secElem');
 
 // Update the countdown every second
 setInterval(updateCountdown, 1000);
