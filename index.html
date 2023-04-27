@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Lakshya 2k23</title>
+</head>
+
+<body>
+  <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
+    <div class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
+    <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
+  </div>
+  <div class="relative pt-8 ml-auto">
+    <div class="lg:w-2/3 text-center mx-auto">
+      <h1 class="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">Junnon 2k23</h1>
+
+      <p class="mt-2 text-gray-700 dark:text-gray-300">
+        Welcome to our upcoming event! We are excited to have you join us for an unforgettable experience.
+
+        The event will be held on, <span class="font-bold text-xl underline text-primary dark:text-purple-300">Saturday May 4th, 2023</span> which is only a few weeks away. To make sure you don't
+        miss out, we have created a countdown timer that shows the time remaining until the event.
+      </p>
+
+      <div id="counter">
+        <div class="grid grid-flow-col gap-5 text-center auto-cols-max mt-8 justify-center">
+          <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+            <span class="countdown font-mono text-5xl">
+              <span style=""></span>
+            </span>
+            days
+          </div> 
+          <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:10;"></span>
+            </span>
+            hours
+          </div> 
+          <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:24;"></span>
+            </span>
+            min
+          </div> 
+          <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:54;"></span>
+            </span>
+            sec
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
